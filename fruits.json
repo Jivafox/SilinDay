@@ -1,0 +1,55 @@
+[
+  {
+    "id": "apple",
+    "name": { "zh": "苹果", "en": "Apple" },
+    "category": "fruit",
+    "varieties": [
+      {
+        "id": "fuji",
+        "name": { "zh": "富士苹果", "en": "Fuji Apple" },
+        "season": { "start": "06-15", "end": "07-25" },
+        "flavor": { "zh": "脆甜", "en": "Sweet and crisp" },
+        "nutrition": {
+          "zh": "富含维生素C和膳食纤维。",
+          "en": "Rich in vitamin C and dietary fiber."
+        },
+        "region": { "zh": "日本", "en": "Japan" },
+        "calories": { "per100g": 52, "unit": "kcal" },
+        "image": "images/apples/apple_fuji.jpg"
+      },
+      {
+        "id": "green",
+        "name": { "zh": "青苹果", "en": "Green Apple" },
+        "season": { "start": "06-20", "end": "07-10" },
+        "flavor": { "zh": "酸爽", "en": "Tart and fresh" },
+        "nutrition": {
+          "zh": "富含维生素C和膳食纤维。",
+          "en": "Rich in vitamin C and dietary fiber."
+        },
+        "region": { "zh": "澳大利亚", "en": "Australia" },
+        "calories": { "per100g": 48, "unit": "kcal" },
+        "image": "images/apples/apple_green.jpg"
+      }
+    ]
+  },
+  {
+    "id": "banana",
+    "name": { "zh": "香蕉", "en": "Banana" },
+    "category": "fruit",
+    "varieties": [
+      {
+        "id": "normal",
+        "name": { "zh": "普通香蕉", "en": "Regular Banana" },
+        "season": { "start": "05-01", "end": "09-01" },
+        "flavor": { "zh": "香甜软糯", "en": "Soft and sweet" },
+        "nutrition": {
+          "zh": "富含钾、镁、维生素B6。",
+          "en": "Rich in potassium, magnesium, and vitamin B6."
+        },
+        "region": { "zh": "中国云南", "en": "Yunnan, China" },
+        "calories": { "per100g": 89, "unit": "kcal" },
+        "image": "images/bananas/banana_regular.jpg"
+      }
+    ]
+  }
+]
