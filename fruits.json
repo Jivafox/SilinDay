@@ -74,7 +74,7 @@
         },
         "region": { "zh": "中国南方", "en": "Southern China" },
         "calories": { "per100g": 89, "unit": "kcal" },
-        "image": "assets/fruit/fruit_emperor.png"
+        "image": "assets/banana/banana_emperor.png"
       }
     ]
   }
