@@ -15,7 +15,7 @@
         },
         "region": { "zh": "日本", "en": "Japan" },
         "calories": { "per100g": 52, "unit": "kcal" },
-        "image": "images/apples/apple_fuji.jpg"
+        "image": "assets/apples/apple_fuji.png"
       },
       {
         "id": "green",
@@ -28,7 +28,7 @@
         },
         "region": { "zh": "澳大利亚", "en": "Australia" },
         "calories": { "per100g": 48, "unit": "kcal" },
-        "image": "images/apples/apple_green.jpg"
+        "image": "assets/apples/apple_green.png"
       }
     ]
   },
@@ -48,7 +48,7 @@
         },
         "region": { "zh": "中国云南", "en": "Yunnan, China" },
         "calories": { "per100g": 89, "unit": "kcal" },
-        "image": "images/bananas/banana_regular.jpg"
+        "image": "assets/bananas/banana_regular.png"
       }
     ]
   }
