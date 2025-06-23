@@ -92,7 +92,7 @@
       {
         "id": "cavendish",
         "name": { "zh": "卡文迪什香蕉", "en": "Cavendish Banana" },
-        "season": { "start": "03-01", "end": "11-30" },
+        "season": { "start": "03-01", "end": "04-30" },
         "flavor": { "zh": "甜香柔软", "en": "Sweet, aromatic, and tender" },
         "nutrition": {
           "zh": "含有钾、镁和维生素C，是最常见的商业香蕉品种。",
