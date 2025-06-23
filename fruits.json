@@ -75,6 +75,32 @@
         "region": { "zh": "中国南方", "en": "Southern China" },
         "calories": { "per100g": 89, "unit": "kcal" },
         "image": "assets/banana/banana_emperor.png"
+      },
+      {
+        "id": "plantain",
+        "name": { "zh": "大蕉", "en": "Plantain" },
+        "season": { "start": "07-11", "end": "10-15" },
+        "flavor": { "zh": "略涩，适合加热烹饪", "en": "Slightly astringent, best when cooked" },
+        "nutrition": {
+          "zh": "含有丰富的复合碳水化合物，是优质的热量来源，适合煮熟后食用。",
+          "en": "Rich in complex carbohydrates, a great source of energy, ideal for cooking."
+        },
+        "region": { "zh": "非洲与加勒比地区", "en": "Africa and Caribbean" },
+        "calories": { "per100g": 122, "unit": "kcal" },
+        "image": "assets/banana/banana_plantain.png"
+      },
+      {
+        "id": "cavendish",
+        "name": { "zh": "卡文迪什香蕉", "en": "Cavendish Banana" },
+        "season": { "start": "03-01", "end": "11-30" },
+        "flavor": { "zh": "甜香柔软", "en": "Sweet, aromatic, and tender" },
+        "nutrition": {
+          "zh": "含有钾、镁和维生素C，是最常见的商业香蕉品种。",
+          "en": "Contains potassium, magnesium, and vitamin C; the most common commercial banana variety."
+        },
+        "region": { "zh": "中南美洲", "en": "Central and South America" },
+        "calories": { "per100g": 89, "unit": "kcal" },
+        "image": "assets/banana/banana_cavendish.png"
       }
     ]
   }
