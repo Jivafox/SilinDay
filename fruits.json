@@ -3,12 +3,25 @@
     "id": "apple",
     "name": { "zh": "苹果", "en": "Apple" },
     "category": "fruit",
+    "precautions": {
+      "zh": "苹果含糖量较高，糖尿病患者应适量食用。",
+      "en": "Apples are high in sugar; people with diabetes should consume them in moderation."
+    },
+    "storage": {
+      "zh": "置于阴凉干燥处或冰箱冷藏可延长保鲜期。",
+      "en": "Store in a cool, dry place or refrigerate to extend freshness."
+    },
+    "calories": { "per100g": 52, "unit": "kcal" },
+    "tags": {
+      "zh": ["甜味", "高纤维", "维生素C"],
+      "en": ["Sweet", "High Fiber", "Vitamin C"]
+    },
     "varieties": [
       {
         "id": "fuji",
         "name": { "zh": "富士苹果", "en": "Fuji Apple" },
-        "season": { "start": "06-15", "end": "07-25" },
-        "flavor": { "zh": "脆甜", "en": "Sweet and crisp" },
+        "season": { "start": "09-15", "end": "11-30" },
+        "flavor": { "zh": "甜脆", "en": "Sweet and crisp" },
         "nutrition": {
           "zh": "富含维生素C和膳食纤维。",
           "en": "Rich in vitamin C and dietary fiber."
@@ -20,13 +33,13 @@
       {
         "id": "green",
         "name": { "zh": "青苹果", "en": "Green Apple" },
-        "season": { "start": "06-20", "end": "07-10" },
-        "flavor": { "zh": "酸爽", "en": "Tart and fresh" },
+        "season": { "start": "08-01", "end": "10-31" },
+        "flavor": { "zh": "清爽微酸", "en": "Refreshing and slightly tart" },
         "nutrition": {
-          "zh": "富含维生素C和膳食纤维。",
-          "en": "Rich in vitamin C and dietary fiber."
+          "zh": "富含抗氧化物和膳食纤维，热量较低。",
+          "en": "Rich in antioxidants and dietary fiber, lower in calories."
         },
-        "region": { "zh": "澳大利亚", "en": "Australia" },
+        "region": { "zh": "中国山东", "en": "Shandong, China" },
         "calories": { "per100g": 48, "unit": "kcal" },
         "image": "assets/apple/apple_green.png"
       }
@@ -36,19 +49,32 @@
     "id": "banana",
     "name": { "zh": "香蕉", "en": "Banana" },
     "category": "fruit",
+    "precautions": {
+      "zh": "香蕉性寒，不宜空腹食用，腹泻者慎食。",
+      "en": "Bananas are cold in nature and should not be eaten on an empty stomach; avoid if experiencing diarrhea."
+    },
+    "storage": {
+      "zh": "放在阴凉通风处保存，避免阳光直射，成熟后可冷藏延缓变质。",
+      "en": "Store in a cool, ventilated place away from direct sunlight. Refrigerate when ripe to slow spoilage."
+    },
+    "calories": { "per100g": 89, "unit": "kcal" },
+    "tags": {
+      "zh": ["热带水果", "高钾", "能量补充"],
+      "en": ["Tropical Fruit", "High Potassium", "Energy Boost"]
+    },
     "varieties": [
       {
-        "id": "normal",
-        "name": { "zh": "普通香蕉", "en": "Regular Banana" },
-        "season": { "start": "05-01", "end": "09-01" },
-        "flavor": { "zh": "香甜软糯", "en": "Soft and sweet" },
+        "id": "emperor",
+        "name": { "zh": "皇帝蕉", "en": "Emperor Banana" },
+        "season": { "start": "05-01", "end": "10-31" },
+        "flavor": { "zh": "香甜软糯", "en": "Fragrant, sweet, and soft" },
         "nutrition": {
-          "zh": "富含钾、镁、维生素B6。",
-          "en": "Rich in potassium, magnesium, and vitamin B6."
+          "zh": "富含钾、维生素B6和膳食纤维，有助于能量补充与肠道健康。",
+          "en": "Rich in potassium, vitamin B6, and dietary fiber, supporting energy and digestive health."
         },
-        "region": { "zh": "中国云南", "en": "Yunnan, China" },
+        "region": { "zh": "中国南方", "en": "Southern China" },
         "calories": { "per100g": 89, "unit": "kcal" },
-        "image": "assets/banana/banana_regular.png"
+        "image": "assets/fruit/fruit_emperor.png"
       }
     ]
   }
