@@ -1,106 +1,1877 @@
 [
   {
     "id": "apple",
-    "name": { "zh": "苹果", "en": "Apple" },
+    "name": {
+      "zh": "苹果",
+      "en": "Apple"
+    },
     "category": "fruit",
     "precautions": {
-      "zh": "苹果含糖量较高，糖尿病患者应适量食用。",
-      "en": "Apples are high in sugar; people with diabetes should consume them in moderation."
+      "zh": "清洗干净后食用，注意去掉果核。建议每天食用1-2个中等大小苹果（约150-300克）。可直接食用或榨汁，削皮后切块食用更佳。饭前30分钟食用有助消化，避免饭后立即食用。可制作苹果沙拉、烘烤苹果等多种吃法。",
+      "en": "Wash thoroughly and remove the core before eating. Recommended 1-2 medium apples daily (150-300g). Eat fresh or juice, better to peel and slice. Best consumed 30 minutes before meals for digestion, avoid eating immediately after meals. Can make apple salad, baked apples, etc."
     },
     "storage": {
-      "zh": "置于阴凉干燥处或冰箱冷藏可延长保鲜期。",
-      "en": "Store in a cool, dry place or refrigerate to extend freshness."
+      "zh": "最佳储存温度0-4°C冷藏保存。常温下可保存7-10天，冷藏可保存1-3个月。保持湿度85-90%。避免阳光直射，与其他水果分开存放以防催熟，定期检查并移除腐坏果实。",
+      "en": "Best stored refrigerated at 0-4°C. Keeps 7-10 days at room temperature, 1-3 months refrigerated. Maintain 85-90% humidity. Avoid direct sunlight, store separately from other fruits to prevent over-ripening, check regularly and remove spoiled fruits."
     },
-    "calories": { "per100g": 52, "unit": "kcal" },
     "tags": {
-      "zh": ["甜味", "高纤维", "维生素C"],
-      "en": ["Sweet", "High Fiber", "Vitamin C"]
+      "zh": [
+        "常见",
+        "营养丰富"
+      ],
+      "en": [
+        "Common",
+        "Nutritious"
+      ]
     },
     "varieties": [
       {
         "id": "fuji",
-        "name": { "zh": "富士苹果", "en": "Fuji Apple" },
-        "season": { "start": "09-15", "end": "11-30" },
-        "flavor": { "zh": "甜脆", "en": "Sweet and crisp" },
+        "name": {
+          "zh": "富士苹果",
+          "en": "Fuji Apple"
+        },
+        "season": {
+          "start": "09-15",
+          "end": "11-30"
+        },
+        "flavor": {
+          "zh": "甜脆",
+          "en": "Sweet and crisp"
+        },
         "nutrition": {
           "zh": "富含维生素C和膳食纤维。",
           "en": "Rich in vitamin C and dietary fiber."
         },
-        "region": { "zh": "日本", "en": "Japan" },
-        "calories": { "per100g": 52, "unit": "kcal" },
-        "image": "assets/apple/apple_fuji.png"
+        "region": {
+          "zh": "中国烟台",
+          "en": "Yantai, China"
+        },
+        "calories": {
+          "per100g": 52,
+          "unit": "kcal"
+        },
+        "image": "assets/apple_fuji.png"
       },
       {
-        "id": "green",
-        "name": { "zh": "青苹果", "en": "Green Apple" },
-        "season": { "start": "08-01", "end": "10-31" },
-        "flavor": { "zh": "清爽微酸", "en": "Refreshing and slightly tart" },
-        "nutrition": {
-          "zh": "富含抗氧化物和膳食纤维，热量较低。",
-          "en": "Rich in antioxidants and dietary fiber, lower in calories."
+        "id": "red_delicious",
+        "name": {
+          "zh": "红将军",
+          "en": "Red Delicious"
         },
-        "region": { "zh": "中国山东", "en": "Shandong, China" },
-        "calories": { "per100g": 48, "unit": "kcal" },
-        "image": "assets/apple/apple_green.png"
+        "season": {
+          "start": "09-10",
+          "end": "11-20"
+        },
+        "flavor": {
+          "zh": "香甜",
+          "en": "Sweet and aromatic"
+        },
+        "nutrition": {
+          "zh": "含有多种抗氧化物质。",
+          "en": "Contains various antioxidants."
+        },
+        "region": {
+          "zh": "美国",
+          "en": "USA"
+        },
+        "calories": {
+          "per100g": 52,
+          "unit": "kcal"
+        },
+        "image": "assets/apple_red_delicious.png"
+      },
+      {
+        "id": "green_apple",
+        "name": {
+          "zh": "青苹果",
+          "en": "Green Apple"
+        },
+        "season": {
+          "start": "08-15",
+          "end": "10-30"
+        },
+        "flavor": {
+          "zh": "清脆微酸",
+          "en": "Crisp and slightly tart"
+        },
+        "nutrition": {
+          "zh": "膳食纤维高。",
+          "en": "High in dietary fiber."
+        },
+        "region": {
+          "zh": "全球",
+          "en": "Global"
+        },
+        "calories": {
+          "per100g": 48,
+          "unit": "kcal"
+        },
+        "image": "assets/apple_green_apple.png"
       }
     ]
   },
   {
     "id": "banana",
-    "name": { "zh": "香蕉", "en": "Banana" },
+    "name": {
+      "zh": "香蕉",
+      "en": "Banana"
+    },
     "category": "fruit",
     "precautions": {
-      "zh": "香蕉性寒，不宜空腹食用，腹泻者慎食。",
-      "en": "Bananas are cold in nature and should not be eaten on an empty stomach; avoid if experiencing diarrhea."
+      "zh": "糖分较高，糖尿病人适量食用。建议每天食用1-2根香蕉（约100-200克）。直接剥皮食用，可搭配酸奶、燕麦制作早餐。运动前后食用效果佳，能快速补充能量。糖尿病患者建议减半食用。可制作香蕉奶昔、香蕉面包等。",
+      "en": "High in sugar; consume in moderation if diabetic. Recommended 1-2 bananas daily (100-200g). Peel and eat fresh, great with yogurt or oatmeal for breakfast. Excellent before/after exercise for quick energy. Diabetics should halve portions. Can make banana smoothies, banana bread, etc."
     },
     "storage": {
-      "zh": "放在阴凉通风处保存，避免阳光直射，成熟后可冷藏延缓变质。",
-      "en": "Store in a cool, ventilated place away from direct sunlight. Refrigerate when ripe to slow spoilage."
+      "zh": "室温保存13-15°C。常温下可保存3-7天，冷藏后表皮变黑但果肉仍可食用。保持湿度85-95%。未成熟时室温保存，成熟后可冷藏延长保存期，避免碰撞造成黑斑。",
+      "en": "Store at room temperature 13-15°C. Keeps 3-7 days at room temperature, skin darkens when refrigerated but flesh remains edible. Maintain 85-95% humidity. Store at room temp when unripe, refrigerate when ripe to extend life, avoid bruising."
     },
-    "calories": { "per100g": 89, "unit": "kcal" },
     "tags": {
-      "zh": ["热带水果", "高钾", "能量补充"],
-      "en": ["Tropical Fruit", "High Potassium", "Energy Boost"]
+      "zh": [
+        "常见",
+        "高能量"
+      ],
+      "en": [
+        "Common",
+        "High energy"
+      ]
     },
     "varieties": [
       {
-        "id": "emperor",
-        "name": { "zh": "皇帝蕉", "en": "Emperor Banana" },
-        "season": { "start": "05-01", "end": "10-31" },
-        "flavor": { "zh": "香甜软糯", "en": "Fragrant, sweet, and soft" },
-        "nutrition": {
-          "zh": "富含钾、维生素B6和膳食纤维，有助于能量补充与肠道健康。",
-          "en": "Rich in potassium, vitamin B6, and dietary fiber, supporting energy and digestive health."
+        "id": "emperor_banana",
+        "name": {
+          "zh": "皇帝蕉",
+          "en": "Emperor Banana"
         },
-        "region": { "zh": "中国南方", "en": "Southern China" },
-        "calories": { "per100g": 89, "unit": "kcal" },
-        "image": "assets/banana/banana_emperor.png"
+        "season": {
+          "start": "06-01",
+          "end": "10-31"
+        },
+        "flavor": {
+          "zh": "小而香甜",
+          "en": "Small and sweet"
+        },
+        "nutrition": {
+          "zh": "富含钾元素。",
+          "en": "Rich in potassium."
+        },
+        "region": {
+          "zh": "东南亚",
+          "en": "Southeast Asia"
+        },
+        "calories": {
+          "per100g": 95,
+          "unit": "kcal"
+        },
+        "image": "assets/banana_emperor_banana.png"
       },
       {
-        "id": "plantain",
-        "name": { "zh": "大蕉", "en": "Plantain" },
-        "season": { "start": "07-11", "end": "10-15" },
-        "flavor": { "zh": "略涩，适合加热烹饪", "en": "Slightly astringent, best when cooked" },
-        "nutrition": {
-          "zh": "含有丰富的复合碳水化合物，是优质的热量来源，适合煮熟后食用。",
-          "en": "Rich in complex carbohydrates, a great source of energy, ideal for cooking."
+        "id": "sticky_rice_banana",
+        "name": {
+          "zh": "粘米蕉",
+          "en": "Sticky Rice Banana"
         },
-        "region": { "zh": "非洲与加勒比地区", "en": "Africa and Caribbean" },
-        "calories": { "per100g": 122, "unit": "kcal" },
-        "image": "assets/banana/banana_plantain.png"
+        "season": {
+          "start": "06-01",
+          "end": "10-31"
+        },
+        "flavor": {
+          "zh": "粘糯甜",
+          "en": "Sticky and sweet"
+        },
+        "nutrition": {
+          "zh": "碳水化合物丰富。",
+          "en": "Rich in carbohydrates."
+        },
+        "region": {
+          "zh": "东南亚",
+          "en": "Southeast Asia"
+        },
+        "calories": {
+          "per100g": 98,
+          "unit": "kcal"
+        },
+        "image": "assets/banana_sticky_rice_banana.png"
       },
       {
         "id": "cavendish",
-        "name": { "zh": "卡文迪什香蕉", "en": "Cavendish Banana" },
-        "season": { "start": "03-01", "end": "04-30" },
-        "flavor": { "zh": "甜香柔软", "en": "Sweet, aromatic, and tender" },
-        "nutrition": {
-          "zh": "含有钾、镁和维生素C，是最常见的商业香蕉品种。",
-          "en": "Contains potassium, magnesium, and vitamin C; the most common commercial banana variety."
+        "name": {
+          "zh": "巴西蕉",
+          "en": "Cavendish Banana"
         },
-        "region": { "zh": "中南美洲", "en": "Central and South America" },
-        "calories": { "per100g": 89, "unit": "kcal" },
-        "image": "assets/banana/banana_cavendish.png"
+        "season": {
+          "start": "01-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "常见超市型甜",
+          "en": "Common supermarket sweet"
+        },
+        "nutrition": {
+          "zh": "钾和维生素B6丰富。",
+          "en": "Rich in potassium and vitamin B6."
+        },
+        "region": {
+          "zh": "全球",
+          "en": "Global"
+        },
+        "calories": {
+          "per100g": 89,
+          "unit": "kcal"
+        },
+        "image": "assets/banana_cavendish.png"
+      }
+    ]
+  },
+  {
+    "id": "orange",
+    "name": {
+      "zh": "橘子",
+      "en": "Orange"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "空腹不宜大量食用，可能刺激胃酸。建议每天食用1-2个橘子（约150-250克）。剥皮直接食用或榨汁，保留白色内皮营养更丰富。空腹时少量食用，餐后1小时食用最佳。可制作橘子沙拉、橘子茶等。维生素C含量高，感冒时适量增加。",
+      "en": "Not advisable on an empty stomach in large amounts due to acidity. Recommended 1-2 oranges daily (150-250g). Peel and eat fresh or juice, keep white pith for extra nutrition. Eat small amounts on empty stomach, best 1 hour after meals. Can make orange salad, orange tea. High vitamin C, increase during cold season."
+    },
+    "storage": {
+      "zh": "冷藏保存4-10°C。常温下可保存1-2周，冷藏可保存3-4周。保持湿度85-90%。存放在通风处，避免塑料袋密封，定期翻动防止局部腐烂。",
+      "en": "Refrigerate at 4-10°C. Keeps 1-2 weeks at room temperature, 3-4 weeks refrigerated. Maintain 85-90% humidity. Store in ventilated area, avoid plastic bag sealing, turn regularly to prevent local spoilage."
+    },
+    "tags": {
+      "zh": [
+        "富含维C",
+        "多汁"
+      ],
+      "en": [
+        "High in vitamin C",
+        "Juicy"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "sugar_tangerine",
+        "name": {
+          "zh": "砂糖橘",
+          "en": "Sugar Tangerine"
+        },
+        "season": {
+          "start": "11-01",
+          "end": "01-31"
+        },
+        "flavor": {
+          "zh": "极甜多汁",
+          "en": "Ultra-sweet and juicy"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 50,
+          "unit": "kcal"
+        },
+        "image": "assets/orange_sugar_tangerine.png"
+      },
+      {
+        "id": "mogan_mandarin",
+        "name": {
+          "zh": "茂谷柑",
+          "en": "Mogan Mandarin"
+        },
+        "season": {
+          "start": "12-01",
+          "end": "02-28"
+        },
+        "flavor": {
+          "zh": "甜中带酸",
+          "en": "Sweet with a hint of tartness"
+        },
+        "nutrition": {
+          "zh": "富含膳食纤维。",
+          "en": "Rich in dietary fiber."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 45,
+          "unit": "kcal"
+        },
+        "image": "assets/orange_mogan_mandarin.png"
+      },
+      {
+        "id": "navel_orange",
+        "name": {
+          "zh": "赣南脐橙",
+          "en": "Naval Orange"
+        },
+        "season": {
+          "start": "11-01",
+          "end": "03-31"
+        },
+        "flavor": {
+          "zh": "香甜多汁",
+          "en": "Sweet and juicy"
+        },
+        "nutrition": {
+          "zh": "富含叶酸。",
+          "en": "High in folate."
+        },
+        "region": {
+          "zh": "中国赣南",
+          "en": "Gannan, China"
+        },
+        "calories": {
+          "per100g": 47,
+          "unit": "kcal"
+        },
+        "image": "assets/orange_navel_orange.png"
+      }
+    ]
+  },
+  {
+    "id": "grape",
+    "name": {
+      "zh": "葡萄",
+      "en": "Grape"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "血糖高者慎食，多洗净食用。建议每天食用100-200克葡萄（约1-2串小串）。清洗干净后连皮食用，葡萄皮含有丰富抗氧化物质。可作为餐间零食或饭后水果。血糖高者减量食用。可制作葡萄汁、葡萄干等。",
+      "en": "Wash thoroughly; consume cautiously if blood sugar is high. Recommended 100-200g grapes daily (1-2 small clusters). Wash thoroughly and eat with skin for antioxidants. Great as snacks between meals or after dinner. Reduce portions if high blood sugar. Can make grape juice, raisins, etc."
+    },
+    "storage": {
+      "zh": "冷藏保存0-2°C。常温下可保存2-3天，冷藏可保存1-2周。保持湿度90-95%。保持原包装或透气容器，避免清洗直到食用前，去除腐烂果粒。",
+      "en": "Refrigerate at 0-2°C. Keeps 2-3 days at room temperature, 1-2 weeks refrigerated. Maintain 90-95% humidity. Keep in original packaging or breathable container, avoid washing until eating, remove spoiled grapes."
+    },
+    "tags": {
+      "zh": [
+        "美味",
+        "可生吃"
+      ],
+      "en": [
+        "Delicious",
+        "Eat raw"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "sunshine_rose",
+        "name": {
+          "zh": "阳光玫瑰",
+          "en": "Sunshine Rose"
+        },
+        "season": {
+          "start": "07-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "高端甜，无籽",
+          "en": "Premium sweet, seedless"
+        },
+        "nutrition": {
+          "zh": "富含抗氧化剂。",
+          "en": "Rich in antioxidants."
+        },
+        "region": {
+          "zh": "日本",
+          "en": "Japan"
+        },
+        "calories": {
+          "per100g": 70,
+          "unit": "kcal"
+        },
+        "image": "assets/grape_sunshine_rose.png"
+      },
+      {
+        "id": "kyoho",
+        "name": {
+          "zh": "巨峰",
+          "en": "Kyoho Grape"
+        },
+        "season": {
+          "start": "06-15",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "传统黑葡萄，甘甜",
+          "en": "Traditional black grape, sweet"
+        },
+        "nutrition": {
+          "zh": "含有多酚。",
+          "en": "Contains polyphenols."
+        },
+        "region": {
+          "zh": "日本",
+          "en": "Japan"
+        },
+        "calories": {
+          "per100g": 69,
+          "unit": "kcal"
+        },
+        "image": "assets/grape_kyoho.png"
+      },
+      {
+        "id": "summer_black",
+        "name": {
+          "zh": "夏黑",
+          "en": "Summer Black Grape"
+        },
+        "season": {
+          "start": "07-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "无籽，甜度高",
+          "en": "Seedless and very sweet"
+        },
+        "nutrition": {
+          "zh": "糖分较高。",
+          "en": "Higher sugar content."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 72,
+          "unit": "kcal"
+        },
+        "image": "assets/grape_summer_black.png"
+      }
+    ]
+  },
+  {
+    "id": "blueberry",
+    "name": {
+      "zh": "蓝莓",
+      "en": "Blueberry"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "皮薄易坏，存放冷藏更好。建议每天食用50-100克蓝莓（约半杯到一杯）。可直接食用或搭配酸奶、燕麦。作为早餐配菜或下午茶点心都很好。可冷冻保存随时食用。制作蓝莓马芬、蓝莓果酱等美味食品。",
+      "en": "Thin skin, easily spoil; better stored refrigerated. Recommended 50-100g blueberries daily (half to one cup). Eat fresh or with yogurt, oatmeal. Great for breakfast topping or afternoon snacks. Can freeze for year-round consumption. Make blueberry muffins, jam, etc."
+    },
+    "storage": {
+      "zh": "冷藏保存0-4°C。常温下可保存1-2天，冷藏可保存1-2周。保持湿度90-95%。不要清洗直到食用前，保持干燥状态，使用透气容器存放。",
+      "en": "Refrigerate at 0-4°C. Keeps 1-2 days at room temperature, 1-2 weeks refrigerated. Maintain 90-95% humidity. Do not wash until eating, keep dry, store in breathable container."
+    },
+    "tags": {
+      "zh": [
+        "抗氧化",
+        "营养密集"
+      ],
+      "en": [
+        "Antioxidant",
+        "Nutrient-dense"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "duke_blueberry",
+        "name": {
+          "zh": "都克蓝",
+          "en": "Duke Blueberry"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-15"
+        },
+        "flavor": {
+          "zh": "大型果，多汁",
+          "en": "Large fruit, juicy"
+        },
+        "nutrition": {
+          "zh": "维生素E高。",
+          "en": "High in vitamin E."
+        },
+        "region": {
+          "zh": "美国",
+          "en": "USA"
+        },
+        "calories": {
+          "per100g": 57,
+          "unit": "kcal"
+        },
+        "image": "assets/blueberry_duke_blueberry.png"
+      },
+      {
+        "id": "brilliant_blue",
+        "name": {
+          "zh": "灿烂蓝",
+          "en": "Brilliant Blue"
+        },
+        "season": {
+          "start": "05-15",
+          "end": "08-30"
+        },
+        "flavor": {
+          "zh": "国产优选，风味好",
+          "en": "Domestic premium, great flavor"
+        },
+        "nutrition": {
+          "zh": "含有花青素。",
+          "en": "Contains anthocyanins."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 56,
+          "unit": "kcal"
+        },
+        "image": "assets/blueberry_brilliant_blue.png"
+      },
+      {
+        "id": "o_neill",
+        "name": {
+          "zh": "奥尼尔",
+          "en": "O'Neal Blueberry"
+        },
+        "season": {
+          "start": "04-15",
+          "end": "06-30"
+        },
+        "flavor": {
+          "zh": "早熟品种，风味清香",
+          "en": "Early ripening, fragrant flavor"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "美国",
+          "en": "USA"
+        },
+        "calories": {
+          "per100g": 57,
+          "unit": "kcal"
+        },
+        "image": "assets/blueberry_o_neill.png"
+      }
+    ]
+  },
+  {
+    "id": "strawberry",
+    "name": {
+      "zh": "草莓",
+      "en": "Strawberry"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "易腐烂，清洗后尽快食用。建议每天食用100-200克草莓（约8-12颗）。清洗后去蒂食用，可搭配牛奶、酸奶制作甜品。最好现买现吃，避免长时间储存。可制作草莓奶昔、草莓蛋糕等。过敏体质者初次食用需注意。",
+      "en": "Spoils easily; wash and eat promptly. Recommended 100-200g strawberries daily (8-12 berries). Wash and remove stems before eating, great with milk or yogurt for desserts. Best to eat fresh, avoid long storage. Can make strawberry smoothies, cakes. Those with allergies should be cautious first time."
+    },
+    "storage": {
+      "zh": "冷藏保存0-2°C。常温下可保存1天，冷藏可保存3-7天。保持湿度90-95%。保留绿叶直到食用，避免堆叠过高，及时移除软烂果实。",
+      "en": "Refrigerate at 0-2°C. Keeps 1 day at room temperature, 3-7 days refrigerated. Maintain 90-95% humidity. Keep green tops until eating, avoid stacking too high, remove soft berries promptly."
+    },
+    "tags": {
+      "zh": [
+        "酸甜",
+        "维C丰富"
+      ],
+      "en": [
+        "Sweet‑tart",
+        "Rich in vitamin C"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "hongyan",
+        "name": {
+          "zh": "红颜",
+          "en": "Hongyan"
+        },
+        "season": {
+          "start": "11-01",
+          "end": "05-31"
+        },
+        "flavor": {
+          "zh": "甜中带酸",
+          "en": "Sweet with a hint of tartness"
+        },
+        "nutrition": {
+          "zh": "富含维生素C和叶酸。",
+          "en": "Rich in vitamin C and folate."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 33,
+          "unit": "kcal"
+        },
+        "image": "assets/strawberry_hongyan.png"
+      },
+      {
+        "id": "cream_strawberry",
+        "name": {
+          "zh": "奶油草莓",
+          "en": "Cream Strawberry"
+        },
+        "season": {
+          "start": "11-01",
+          "end": "04-30"
+        },
+        "flavor": {
+          "zh": "香甜细腻",
+          "en": "Creamy sweet and delicate"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "High in vitamin C."
+        },
+        "region": {
+          "zh": "日本/中国",
+          "en": "Japan/China"
+        },
+        "calories": {
+          "per100g": 34,
+          "unit": "kcal"
+        },
+        "image": "assets/strawberry_cream_strawberry.png"
+      },
+      {
+        "id": "zhangji",
+        "name": {
+          "zh": "章姬",
+          "en": "Zhangji"
+        },
+        "season": {
+          "start": "11-01",
+          "end": "04-30"
+        },
+        "flavor": {
+          "zh": "甜度高",
+          "en": "Very sweet"
+        },
+        "nutrition": {
+          "zh": "富含抗氧化物。",
+          "en": "Rich in antioxidants."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 33,
+          "unit": "kcal"
+        },
+        "image": "assets/strawberry_zhangji.png"
+      }
+    ]
+  },
+  {
+    "id": "watermelon",
+    "name": {
+      "zh": "西瓜",
+      "en": "Watermelon"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "吃多易腹胀，糖尿病患者适量。建议每天食用200-400克西瓜（约2-4片）。去籽后直接食用，夏季消暑佳品。饭后1-2小时食用避免腹胀，晚餐后少食以免影响睡眠。可榨汁饮用或制作西瓜沙拉。糖尿病患者适量减少。",
+      "en": "May cause bloating; diabetics should eat moderately. Recommended 200-400g watermelon daily (2-4 slices). Remove seeds and eat fresh, excellent summer cooling fruit. Eat 1-2 hours after meals to avoid bloating, limit evening consumption. Can juice or make watermelon salad. Diabetics should reduce portions."
+    },
+    "storage": {
+      "zh": "室温保存10-15°C。整果常温可保存1-2周，切开后冷藏2-3天。保持湿度85-90%。整果室温存放，切开后必须冷藏并用保鲜膜覆盖，避免串味。",
+      "en": "Store at room temperature 10-15°C. Whole fruit keeps 1-2 weeks at room temperature, 2-3 days refrigerated after cutting. Maintain 85-90% humidity. Store whole fruit at room temp, refrigerate immediately after cutting with plastic wrap."
+    },
+    "tags": {
+      "zh": [
+        "夏季",
+        "多汁"
+      ],
+      "en": [
+        "Summer",
+        "Juicy"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "black_beauty",
+        "name": {
+          "zh": "黑美人",
+          "en": "Black Beauty"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "皮薄，清甜",
+          "en": "Thin rind; crisp and sweet"
+        },
+        "nutrition": {
+          "zh": "水分丰富。",
+          "en": "High water content."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 30,
+          "unit": "kcal"
+        },
+        "image": "assets/watermelon_black_beauty.png"
+      },
+      {
+        "id": "seedless_watermelon",
+        "name": {
+          "zh": "无籽西瓜",
+          "en": "Seedless Watermelon"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "甜，多汁",
+          "en": "Sweet and juicy"
+        },
+        "nutrition": {
+          "zh": "食用方便。",
+          "en": "Convenient to eat."
+        },
+        "region": {
+          "zh": "全球",
+          "en": "Global"
+        },
+        "calories": {
+          "per100g": 30,
+          "unit": "kcal"
+        },
+        "image": "assets/watermelon_seedless_watermelon.png"
+      },
+      {
+        "id": "mini_mermaid",
+        "name": {
+          "zh": "麦甜",
+          "en": "Mini Mermaid"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "微型，甜",
+          "en": "Mini size, sweet"
+        },
+        "nutrition": {
+          "zh": "份量适中。",
+          "en": "Portion‑sized."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 30,
+          "unit": "kcal"
+        },
+        "image": "assets/watermelon_mini_mermaid.png"
+      }
+    ]
+  },
+  {
+    "id": "melon",
+    "name": {
+      "zh": "哈密瓜",
+      "en": "Hami Melon"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "甜度高，建议适量。建议每天食用150-300克哈密瓜（约2-3片）。切块食用前先闻香味确认成熟度，成熟的哈密瓜香甜可口。可搭配火腿制作开胃菜，或榨汁饮用。甜度较高，糖尿病患者谨慎食用。",
+      "en": "Very sweet; consume in moderation. Recommended 150-300g melon daily (2-3 slices). Smell for ripeness before cutting, ripe melons are fragrant and sweet. Great with prosciutto as appetizer or juiced. High sugar content, diabetics should be cautious."
+    },
+    "storage": {
+      "zh": "室温保存10-15°C。未熟时常温3-5天，成熟后1-2天，成熟后冷藏可保存5-7天。保持湿度85-90%。未成熟时室温催熟，成熟后冷藏，切开后包保鲜膜冷藏。",
+      "en": "Store at room temperature 10-15°C. Keeps 3-5 days unripe, 1-2 days when ripe, 5-7 days refrigerated when ripe. Maintain 85-90% humidity. Ripen at room temp when unripe, refrigerate when ripe, wrap cut melon."
+    },
+    "tags": {
+      "zh": [
+        "香甜",
+        "夏季"
+      ],
+      "en": [
+        "Fragrant",
+        "Summer"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "golden_hami",
+        "name": {
+          "zh": "黄金密瓜",
+          "en": "Golden Hami Melon"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "香甜浓郁",
+          "en": "Rich and sweet"
+        },
+        "nutrition": {
+          "zh": "富含维生素A。",
+          "en": "Rich in vitamin A."
+        },
+        "region": {
+          "zh": "中国新疆",
+          "en": "Xinjiang, China"
+        },
+        "calories": {
+          "per100g": 34,
+          "unit": "kcal"
+        },
+        "image": "assets/melon_golden_hami.png"
+      },
+      {
+        "id": "netted_melon",
+        "name": {
+          "zh": "网纹瓜",
+          "en": "Netted Melon"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "清甜",
+          "en": "Mildly sweet"
+        },
+        "nutrition": {
+          "zh": "补水佳品。",
+          "en": "Great for hydration."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 35,
+          "unit": "kcal"
+        },
+        "image": "assets/melon_netted_melon.png"
+      },
+      {
+        "id": "honeydew",
+        "name": {
+          "zh": "白兰瓜",
+          "en": "Honeydew Melon"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "清甜型",
+          "en": "Mildly sweet"
+        },
+        "nutrition": {
+          "zh": "富含水分及维生素C。",
+          "en": "High in water and vitamin C."
+        },
+        "region": {
+          "zh": "中国/美国",
+          "en": "China/USA"
+        },
+        "calories": {
+          "per100g": 36,
+          "unit": "kcal"
+        },
+        "image": "assets/melon_honeydew.png"
+      }
+    ]
+  },
+  {
+    "id": "mango",
+    "name": {
+      "zh": "芒果",
+      "en": "Mango"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "孕妇、过敏体质慎食。建议每天食用100-200克芒果（约半个到一个中等大小）。去皮去核后切块食用，可制作芒果布丁、芒果班戟等甜品。过敏体质者慎食，首次食用建议少量。可搭配酸奶或制作芒果汁。",
+      "en": "Pregnant or allergy‑prone individuals should be cautious. Recommended 100-200g mango daily (half to one medium). Peel and remove pit, cut into pieces. Can make mango pudding, mango pancakes. Those with allergies should be cautious, try small amounts first. Great with yogurt or as mango juice."
+    },
+    "storage": {
+      "zh": "室温催熟后冷藏4-13°C。常温催熟3-7天，成熟后冷藏5-7天。保持湿度85-90%。硬果常温催熟，软熟后立即冷藏，避免挤压变形。",
+      "en": "Ripen at room temp, then refrigerate at 4-13°C. Ripens 3-7 days at room temperature, keeps 5-7 days refrigerated when ripe. Maintain 85-90% humidity. Ripen hard fruit at room temp, refrigerate immediately when soft, avoid squeezing."
+    },
+    "tags": {
+      "zh": [
+        "香甜",
+        "热带"
+      ],
+      "en": [
+        "Fragrant",
+        "Tropical"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "tai_nong_1",
+        "name": {
+          "zh": "台农1号",
+          "en": "Tainong No.1"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "香甜多汁",
+          "en": "Fragrant, sweet and juicy"
+        },
+        "nutrition": {
+          "zh": "富含维生素A。",
+          "en": "Rich in vitamin A."
+        },
+        "region": {
+          "zh": "台湾",
+          "en": "Taiwan"
+        },
+        "calories": {
+          "per100g": 65,
+          "unit": "kcal"
+        },
+        "image": "assets/mango_tai_nong_1.png"
+      },
+      {
+        "id": "gui_fei",
+        "name": {
+          "zh": "贵妃芒",
+          "en": "Gui Fei Mango"
+        },
+        "season": {
+          "start": "07-01",
+          "end": "10-31"
+        },
+        "flavor": {
+          "zh": "浓郁香甜",
+          "en": "Intensely sweet and fragrant"
+        },
+        "nutrition": {
+          "zh": "富含抗氧化物。",
+          "en": "Contains antioxidants."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 60,
+          "unit": "kcal"
+        },
+        "image": "assets/mango_gui_fei.png"
+      },
+      {
+        "id": "jin_huang",
+        "name": {
+          "zh": "金煌芒",
+          "en": "Jin Huang Mango"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "09-30"
+        },
+        "flavor": {
+          "zh": "果大味浓",
+          "en": "Large fruit, rich flavor"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 62,
+          "unit": "kcal"
+        },
+        "image": "assets/mango_jin_huang.png"
+      }
+    ]
+  },
+  {
+    "id": "durian",
+    "name": {
+      "zh": "榴莲",
+      "en": "Durian"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "热量高，清洗后及时冷藏。建议每天食用50-100克榴莲（约2-3瓣果肉）。直接食用果肉，避免与酒类同食。热量较高不宜多食，体热者适量减少。可制作榴莲糖、榴莲冰淇淋等。食用后多饮水，避免上火。",
+      "en": "High in calories; clean and refrigerate promptly. Recommended 50-100g durian daily (2-3 segments). Eat flesh directly, avoid consuming with alcohol. High calorie content, dont overeat. Those with hot constitution should reduce portions. Can make durian candy, ice cream. Drink plenty of water after eating."
+    },
+    "storage": {
+      "zh": "冷藏保存4-7°C。常温下当天食用完毕，开壳后冷藏1-2天。保持湿度80-85%。开壳后立即食用或冷藏，可冷冻保存1个月，注意密封防止气味扩散。",
+      "en": "Refrigerate at 4-7°C. Consume same day at room temperature, 1-2 days refrigerated after opening. Maintain 80-85% humidity. Eat immediately or refrigerate after opening, can freeze for 1 month, seal to prevent odor."
+    },
+    "tags": {
+      "zh": [
+        "高热量",
+        "气味独特"
+      ],
+      "en": [
+        "High‑calorie",
+        "Distinctive odor"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "monthong",
+        "name": {
+          "zh": "金枕头",
+          "en": "Monthong"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "甜、奶油质感",
+          "en": "Sweet, creamy texture"
+        },
+        "nutrition": {
+          "zh": "富含能量和脂肪。",
+          "en": "High in energy and fats."
+        },
+        "region": {
+          "zh": "泰国",
+          "en": "Thailand"
+        },
+        "calories": {
+          "per100g": 147,
+          "unit": "kcal"
+        },
+        "image": "assets/durian_monthong.png"
+      },
+      {
+        "id": "musang_king",
+        "name": {
+          "zh": "猫山王",
+          "en": "Musang King"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "味道浓郁，口感绵密",
+          "en": "Intensely flavorful and creamy"
+        },
+        "nutrition": {
+          "zh": "高营养。",
+          "en": "Highly nutritious."
+        },
+        "region": {
+          "zh": "马来西亚",
+          "en": "Malaysia"
+        },
+        "calories": {
+          "per100g": 147,
+          "unit": "kcal"
+        },
+        "image": "assets/durian_musang_king.png"
+      },
+      {
+        "id": "d197",
+        "name": {
+          "zh": "D197",
+          "en": "D197 Durian"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "风味优，丁状果肉",
+          "en": "Premium flavor, chunky flesh"
+        },
+        "nutrition": {
+          "zh": "优质营养。",
+          "en": "Premium nutrition."
+        },
+        "region": {
+          "zh": "马来西亚",
+          "en": "Malaysia"
+        },
+        "calories": {
+          "per100g": 147,
+          "unit": "kcal"
+        },
+        "image": "assets/durian_d197.png"
+      }
+    ]
+  },
+  {
+    "id": "mangosteen",
+    "name": {
+      "zh": "山竹",
+      "en": "Mangosteen"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "果皮厚，注意清洗干净。建议每天食用3-5个山竹（约100-150克果肉）。剥开外壳取果肉食用，果肉洁白香甜。可直接食用或制作山竹汁。性质偏寒，体寒者适量食用。搭配榴莲食用可平衡热性。",
+      "en": "Thick rind; wash thoroughly before opening. Recommended 3-5 mangosteens daily (100-150g flesh). Crack open shell to eat white flesh, sweet and fragrant. Eat fresh or make juice. Cooling nature, those with cold constitution should moderate intake. Pairs well with durian to balance heat."
+    },
+    "storage": {
+      "zh": "冷藏保存4-6°C。常温下可保存3-5天，冷藏可保存2-3周。保持湿度85-90%。选择外壳有弹性的果实，避免干燥环境，轻拿轻放防止内部损伤。",
+      "en": "Refrigerate at 4-6°C. Keeps 3-5 days at room temperature, 2-3 weeks refrigerated. Maintain 85-90% humidity. Choose fruits with flexible shell, avoid dry environment, handle gently to prevent internal damage."
+    },
+    "tags": {
+      "zh": [
+        "热带",
+        "果肉厚"
+      ],
+      "en": [
+        "Tropical",
+        "Thick arils"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "thai_mangosteen",
+        "name": {
+          "zh": "泰国山竹",
+          "en": "Thai Mangosteen"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "果酸甜、肉厚",
+          "en": "Sweet‑tart, thick flesh"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "泰国",
+          "en": "Thailand"
+        },
+        "calories": {
+          "per100g": 73,
+          "unit": "kcal"
+        },
+        "image": "assets/mangosteen_thai_mangosteen.png"
+      },
+      {
+        "id": "yunnan_mangosteen",
+        "name": {
+          "zh": "云南山竹",
+          "en": "Yunnan Mangosteen"
+        },
+        "season": {
+          "start": "06-15",
+          "end": "09-15"
+        },
+        "flavor": {
+          "zh": "国产选品，清甜",
+          "en": "Domestic, mildly sweet"
+        },
+        "nutrition": {
+          "zh": "抗氧化物质丰富。",
+          "en": "Rich in antioxidants."
+        },
+        "region": {
+          "zh": "中国云南",
+          "en": "Yunnan, China"
+        },
+        "calories": {
+          "per100g": 70,
+          "unit": "kcal"
+        },
+        "image": "assets/mangosteen_yunnan_mangosteen.png"
+      }
+    ]
+  },
+  {
+    "id": "peach",
+    "name": {
+      "zh": "桃子",
+      "en": "Peach"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "皮毛易卡果粉，清洗干净。建议每天食用1-2个桃子（约150-300克）。清洗后可连皮或削皮食用，桃毛过敏者需削皮。可制作桃子挞、桃子果酱等。选择软硬适中的桃子，过软容易腐烂。餐后食用助消化。",
+      "en": "Fuzzy skin traps dirt; wash well. Recommended 1-2 peaches daily (150-300g). Wash thoroughly, can eat with or without skin. Those allergic to peach fuzz should peel. Can make peach tarts, jam. Choose medium-firm peaches, overripe ones spoil quickly. Good for digestion after meals."
+    },
+    "storage": {
+      "zh": "冷藏保存0-2°C。常温催熟1-3天，成熟后冷藏3-5天。保持湿度90-95%。硬桃常温催熟，软熟后冷藏，避免挤压造成破损。",
+      "en": "Refrigerate at 0-2°C. Ripens 1-3 days at room temperature, keeps 3-5 days refrigerated when ripe. Maintain 90-95% humidity. Ripen hard peaches at room temp, refrigerate when soft, avoid squeezing."
+    },
+    "tags": {
+      "zh": [
+        "多汁",
+        "清甜"
+      ],
+      "en": [
+        "Juicy",
+        "Sweet"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "juice_peach",
+        "name": {
+          "zh": "水蜜桃",
+          "en": "Juicy Peach"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "非常多汁清甜",
+          "en": "Very juicy and sweet"
+        },
+        "nutrition": {
+          "zh": "富含水分和维生素。",
+          "en": "High in water and vitamins."
+        },
+        "region": {
+          "zh": "上海",
+          "en": "Shanghai"
+        },
+        "calories": {
+          "per100g": 39,
+          "unit": "kcal"
+        },
+        "image": "assets/peach_juice_peach.png"
+      },
+      {
+        "id": "nectarine",
+        "name": {
+          "zh": "油桃",
+          "en": "Nectarine"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "无毛表皮清爽",
+          "en": "Smooth skin; refreshing"
+        },
+        "nutrition": {
+          "zh": "膳食纤维丰富。",
+          "en": "Rich in dietary fiber."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 39,
+          "unit": "kcal"
+        },
+        "image": "assets/peach_nectarine.png"
+      },
+      {
+        "id": "yellow_peach",
+        "name": {
+          "zh": "黄桃",
+          "en": "Yellow Peach"
+        },
+        "season": {
+          "start": "06-01",
+          "end": "08-31"
+        },
+        "flavor": {
+          "zh": "适合罐头或鲜吃",
+          "en": "Good for canning or fresh eating"
+        },
+        "nutrition": {
+          "zh": "甜度适中。",
+          "en": "Moderately sweet."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 41,
+          "unit": "kcal"
+        },
+        "image": "assets/peach_yellow_peach.png"
+      }
+    ]
+  },
+  {
+    "id": "kiwifruit",
+    "name": {
+      "zh": "猕猴桃",
+      "en": "Kiwi"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "皮勿食，去皮后食用。建议每天食用1-2个猕猴桃（约100-200克）。去皮后直接食用或切片，也可连皮食用但需充分清洗。维生素C含量极高，感冒时可适量增加。可制作奇异果汁、果沙拉等。空腹食用可能刺激胃部。",
+      "en": "Do not eat skin; peel before eating. Recommended 1-2 kiwis daily (100-200g). Peel and eat fresh or slice, can eat with skin if thoroughly washed. Extremely high vitamin C, increase during cold season. Can make kiwi juice, fruit salad. May irritate stomach on empty stomach."
+    },
+    "storage": {
+      "zh": "冷藏保存0-2°C。常温催熟3-7天，成熟后冷藏1-2周。保持湿度90-95%。与苹果放在一起可加速催熟，软熟后立即冷藏保存。",
+      "en": "Refrigerate at 0-2°C. Ripens 3-7 days at room temperature, keeps 1-2 weeks refrigerated when ripe. Maintain 90-95% humidity. Place with apples to speed ripening, refrigerate immediately when soft."
+    },
+    "tags": {
+      "zh": [
+        "高维C",
+        "营养密集"
+      ],
+      "en": [
+        "High vitamin C",
+        "Nutrient‑dense"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "xu_xiang",
+        "name": {
+          "zh": "徐香猕猴桃",
+          "en": "Xu Xiang Kiwi"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "香甜多汁",
+          "en": "Fragrant, sweet and juicy"
+        },
+        "nutrition": {
+          "zh": "富含维生素C和矿物质。",
+          "en": "Rich in vitamin C and minerals."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 61,
+          "unit": "kcal"
+        },
+        "image": "assets/kiwifruit_xu_xiang.png"
+      },
+      {
+        "id": "red_kiwi",
+        "name": {
+          "zh": "红心猕猴桃",
+          "en": "Red Kiwi"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "果香浓郁",
+          "en": "Rich berry flavor"
+        },
+        "nutrition": {
+          "zh": "花青素含量高。",
+          "en": "High anthocyanins."
+        },
+        "region": {
+          "zh": "新西兰",
+          "en": "New Zealand"
+        },
+        "calories": {
+          "per100g": 61,
+          "unit": "kcal"
+        },
+        "image": "assets/kiwifruit_red_kiwi.png"
+      },
+      {
+        "id": "gold_kiwi",
+        "name": {
+          "zh": "佳沛绿果",
+          "en": "Zespri Green Kiwi"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "果肉细腻",
+          "en": "Smooth flesh"
+        },
+        "nutrition": {
+          "zh": "富含膳食纤维。",
+          "en": "Rich in dietary fiber."
+        },
+        "region": {
+          "zh": "新西兰",
+          "en": "New Zealand"
+        },
+        "calories": {
+          "per100g": 61,
+          "unit": "kcal"
+        },
+        "image": "assets/kiwifruit_gold_kiwi.png"
+      }
+    ]
+  },
+  {
+    "id": "pomegranate",
+    "name": {
+      "zh": "石榴",
+      "en": "Pomegranate"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "籽多，食用时注意清理。建议每天食用半个到一个石榴（约100-200克果粒）。剥开外皮取红色果粒食用，可直接嚼食或榨汁。籽软可食用，籽硬建议吐出。可制作石榴汁、石榴沙拉等。抗氧化效果佳，适合日常保健。",
+      "en": "Many seeds; clean carefully before eating. Recommended half to one pomegranate daily (100-200g arils). Crack open to eat red arils, chew or juice. Soft seeds edible, spit out hard seeds. Can make pomegranate juice, salad. Excellent antioxidant properties for daily health maintenance."
+    },
+    "storage": {
+      "zh": "冷藏保存0-5°C。常温下可保存1-2个月，冷藏可保存2-3个月。保持湿度80-85%。整果可长期保存，开壳后果粒需冷藏并在3-5天内食用完毕。",
+      "en": "Refrigerate at 0-5°C. Keeps 1-2 months at room temperature, 2-3 months refrigerated. Maintain 80-85% humidity. Whole fruit keeps long, refrigerate arils after opening and consume within 3-5 days."
+    },
+    "tags": {
+      "zh": [
+        "抗氧化",
+        "高纤维"
+      ],
+      "en": [
+        "Antioxidant",
+        "High fiber"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "tunisia_soft_seed",
+        "name": {
+          "zh": "软籽石榴",
+          "en": "Soft‑Seed Pomegranate"
+        },
+        "season": {
+          "start": "09-01",
+          "end": "11-30"
+        },
+        "flavor": {
+          "zh": "籽可食用，甜度高",
+          "en": "Edible seeds, sweet"
+        },
+        "nutrition": {
+          "zh": "富含花青素。",
+          "en": "Rich in anthocyanins."
+        },
+        "region": {
+          "zh": "突尼斯",
+          "en": "Tunisia"
+        },
+        "calories": {
+          "per100g": 83,
+          "unit": "kcal"
+        },
+        "image": "assets/pomegranate_tunisia_soft_seed.png"
+      },
+      {
+        "id": "huili_pomegranate",
+        "name": {
+          "zh": "会理石榴",
+          "en": "Huili Pomegranate"
+        },
+        "season": {
+          "start": "09-01",
+          "end": "11-30"
+        },
+        "flavor": {
+          "zh": "甜脆",
+          "en": "Sweet and crisp"
+        },
+        "nutrition": {
+          "zh": "膳食纤维丰富。",
+          "en": "Rich in dietary fiber."
+        },
+        "region": {
+          "zh": "四川",
+          "en": "Sichuan, China"
+        },
+        "calories": {
+          "per100g": 83,
+          "unit": "kcal"
+        },
+        "image": "assets/pomegranate_huili_pomegranate.png"
+      },
+      {
+        "id": "hongyan_pomegranate",
+        "name": {
+          "zh": "红艳石榴",
+          "en": "Hongyan Pomegranate"
+        },
+        "season": {
+          "start": "09-01",
+          "end": "11-30"
+        },
+        "flavor": {
+          "zh": "果色艳丽",
+          "en": "Vibrant arils"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "High in vitamin C."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 83,
+          "unit": "kcal"
+        },
+        "image": "assets/pomegranate_hongyan_pomegranate.png"
+      }
+    ]
+  },
+  {
+    "id": "persimmon",
+    "name": {
+      "zh": "柿子",
+      "en": "Persimmon"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "涩柿需去涩后食用。建议每天食用1-2个柿子（约150-300克）。软柿直接食用，硬柿需确认去涩后食用。避免空腹大量食用，可能形成胃结石。可制作柿子饼、柿子醋等。与高蛋白食物间隔食用较好。",
+      "en": "Astringent types must be processed before eating. Recommended 1-2 persimmons daily (150-300g). Eat soft types fresh, ensure hard types are properly treated for astringency. Avoid eating large amounts on empty stomach to prevent stomach stones. Can make persimmon cakes, vinegar. Better to space consumption with high-protein foods."
+    },
+    "storage": {
+      "zh": "冷藏保存0-4°C。硬柿常温催熟5-7天，软熟后冷藏3-5天。保持湿度85-90%。硬柿可常温去涩催熟，软柿需小心处理避免破损，立即冷藏。",
+      "en": "Refrigerate at 0-4°C. Hard persimmons ripen 5-7 days at room temperature, keep 3-5 days refrigerated when soft. Maintain 85-90% humidity. Ripen hard persimmons at room temp, handle soft ones carefully, refrigerate immediately."
+    },
+    "tags": {
+      "zh": [
+        "甜",
+        "口感"
+      ],
+      "en": [
+        "Sweet",
+        "Pleasant texture"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "ox_heart",
+        "name": {
+          "zh": "牛心柿",
+          "en": "Ox Heart Persimmon"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "甜且厚实",
+          "en": "Sweet and meaty"
+        },
+        "nutrition": {
+          "zh": "富含类胡萝卜素。",
+          "en": "Rich in carotenoids."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 70,
+          "unit": "kcal"
+        },
+        "image": "assets/persimmon_ox_heart.png"
+      },
+      {
+        "id": "huojing",
+        "name": {
+          "zh": "火晶柿子",
+          "en": "Huo Jing Persimmon"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "清甜脆",
+          "en": "Sweet and crisp"
+        },
+        "nutrition": {
+          "zh": "维生素C丰富。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "陕西",
+          "en": "Shaanxi, China"
+        },
+        "calories": {
+          "per100g": 70,
+          "unit": "kcal"
+        },
+        "image": "assets/persimmon_huojing.png"
+      },
+      {
+        "id": "crisp_persimmon",
+        "name": {
+          "zh": "脆柿",
+          "en": "Crisp Persimmon"
+        },
+        "season": {
+          "start": "10-01",
+          "end": "12-31"
+        },
+        "flavor": {
+          "zh": "可直接食用",
+          "en": "Ready‑to‑eat crunchy"
+        },
+        "nutrition": {
+          "zh": "纤维丰富。",
+          "en": "High in fiber."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 68,
+          "unit": "kcal"
+        },
+        "image": "assets/persimmon_crisp_persimmon.png"
+      }
+    ]
+  },
+  {
+    "id": "cherry",
+    "name": {
+      "zh": "樱桃",
+      "en": "Cherry"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "果核较大，避免吞食。建议每天食用100-200克樱桃（约10-20颗）。清洗后直接食用，注意吐出果核。可制作樱桃果酱、樱桃蛋糕等。含有天然褪黑素，晚餐后适量食用有助睡眠。痛风患者应限量食用。",
+      "en": "Pit is big; avoid swallowing. Recommended 100-200g cherries daily (10-20 pieces). Wash and eat fresh, remember to spit out pits. Can make cherry jam, cakes. Contains natural melatonin, moderate evening consumption helps sleep. Gout patients should limit intake."
+    },
+    "storage": {
+      "zh": "冷藏保存0-2°C。常温下可保存1-2天，冷藏可保存1周。保持湿度90-95%。保留果梗，避免清洗直到食用前，存放在透气容器中。",
+      "en": "Refrigerate at 0-2°C. Keeps 1-2 days at room temperature, 1 week refrigerated. Maintain 90-95% humidity. Keep stems on, avoid washing until eating, store in breathable container."
+    },
+    "tags": {
+      "zh": [
+        "可口",
+        "果色艳丽"
+      ],
+      "en": [
+        "Tasty",
+        "Vibrant color"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "cheli_zi",
+        "name": {
+          "zh": "车厘子",
+          "en": "Cheli Cherry"
+        },
+        "season": {
+          "start": "05-01",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "进口大果",
+          "en": "Imported large fruit"
+        },
+        "nutrition": {
+          "zh": "富含花青素。",
+          "en": "Rich in anthocyanins."
+        },
+        "region": {
+          "zh": "智利/美国",
+          "en": "Chile/USA"
+        },
+        "calories": {
+          "per100g": 63,
+          "unit": "kcal"
+        },
+        "image": "assets/cherry_cheli_zi.png"
+      },
+      {
+        "id": "hong_deng",
+        "name": {
+          "zh": "红灯",
+          "en": "Hong Deng Cherry"
+        },
+        "season": {
+          "start": "05-01",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "国产甜樱桃",
+          "en": "Domestic sweet cherry"
+        },
+        "nutrition": {
+          "zh": "维生素C丰富。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 63,
+          "unit": "kcal"
+        },
+        "image": "assets/cherry_hong_deng.png"
+      },
+      {
+        "id": "mei_zao",
+        "name": {
+          "zh": "美早",
+          "en": "Mei Zao Cherry"
+        },
+        "season": {
+          "start": "05-01",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "国产大樱桃",
+          "en": "Large domestic cherry"
+        },
+        "nutrition": {
+          "zh": "多汁甜美。",
+          "en": "Juicy and sweet."
+        },
+        "region": {
+          "zh": "中国",
+          "en": "China"
+        },
+        "calories": {
+          "per100g": 64,
+          "unit": "kcal"
+        },
+        "image": "assets/cherry_mei_zao.png"
+      }
+    ]
+  },
+  {
+    "id": "lychee",
+    "name": {
+      "zh": "荔枝",
+      "en": "Lychee"
+    },
+    "category": "fruit",
+    "precautions": {
+      "zh": "高糖高热量，勿空腹多食。建议每天食用5-10颗荔枝（约100-200克）。剥壳去核后食用果肉，不宜空腹大量食用以免低血糖。可制作荔枝干、荔枝蜜等。性热易上火，搭配寒性食物平衡。儿童食用需控制数量。",
+      "en": "High sugar/calorie; avoid eating many on an empty stomach. Recommended 5-10 lychees daily (100-200g). Peel shell and remove pit to eat flesh. Avoid eating many on empty stomach to prevent hypoglycemia. Can make dried lychee, lychee honey. Heating nature, balance with cooling foods. Control portions for children."
+    },
+    "storage": {
+      "zh": "冷藏保存1-5°C。常温下可保存2-3天，冷藏可保存1-2周。保持湿度85-90%。保留外壳直到食用，避免阳光直射，可用湿纸巾包裹保湿。",
+      "en": "Refrigerate at 1-5°C. Keeps 2-3 days at room temperature, 1-2 weeks refrigerated. Maintain 85-90% humidity. Keep shell until eating, avoid direct sunlight, wrap with damp paper towel for moisture."
+    },
+    "tags": {
+      "zh": [
+        "多汁",
+        "热带"
+      ],
+      "en": [
+        "Juicy",
+        "Tropical"
+      ]
+    },
+    "varieties": [
+      {
+        "id": "guiwei",
+        "name": {
+          "zh": "桂味",
+          "en": "Guiwei Lychee"
+        },
+        "season": {
+          "start": "05-15",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "香甜可口",
+          "en": "Fragrant and sweet"
+        },
+        "nutrition": {
+          "zh": "富含维生素C。",
+          "en": "Rich in vitamin C."
+        },
+        "region": {
+          "zh": "中国广西",
+          "en": "Guangxi, China"
+        },
+        "calories": {
+          "per100g": 66,
+          "unit": "kcal"
+        },
+        "image": "assets/lychee_guiwei.png"
+      },
+      {
+        "id": "nuomici",
+        "name": {
+          "zh": "糯米糍",
+          "en": "Nuomi Ci Lychee"
+        },
+        "season": {
+          "start": "05-15",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "果肉肥厚，香甜",
+          "en": "Thick and sweet flesh"
+        },
+        "nutrition": {
+          "zh": "口感柔软。",
+          "en": "Soft texture."
+        },
+        "region": {
+          "zh": "中国广东",
+          "en": "Guangdong, China"
+        },
+        "calories": {
+          "per100g": 68,
+          "unit": "kcal"
+        },
+        "image": "assets/lychee_nuomici.png"
+      },
+      {
+        "id": "feizixiao",
+        "name": {
+          "zh": "妃子笑",
+          "en": "Feizixiao Lychee"
+        },
+        "season": {
+          "start": "05-15",
+          "end": "07-15"
+        },
+        "flavor": {
+          "zh": "清香甜美",
+          "en": "Elegant sweet fragrance"
+        },
+        "nutrition": {
+          "zh": "口感清甜。",
+          "en": "Pleasantly sweet."
+        },
+        "region": {
+          "zh": "广东",
+          "en": "Guangdong, China"
+        },
+        "calories": {
+          "per100g": 66,
+          "unit": "kcal"
+        },
+        "image": "assets/lychee_feizixiao.png"
       }
     ]
   }
