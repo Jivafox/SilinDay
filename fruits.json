@@ -40,8 +40,8 @@
           "en": "Sweet and crisp"
         },
         "nutrition": {
-          "zh": "富含维生素C和膳食纤维。",
-          "en": "Rich in vitamin C and dietary fiber."
+          "zh": "富含维生素C和膳食纤维，有助于增强免疫与促进消化。",
+          "en": "Rich in vitamin C and dietary fiber, helps boost immunity and digestion."
         },
         "region": {
           "zh": "中国烟台",
@@ -68,8 +68,8 @@
           "en": "Sweet and aromatic"
         },
         "nutrition": {
-          "zh": "含有多种抗氧化物质。",
-          "en": "Contains various antioxidants."
+          "zh": "含有多种抗氧化物质，能帮助抵抗自由基。",
+          "en": "Contains various antioxidants that help fight free radicals."
         },
         "region": {
           "zh": "美国",
@@ -96,8 +96,8 @@
           "en": "Crisp and slightly tart"
         },
         "nutrition": {
-          "zh": "膳食纤维高。",
-          "en": "High in dietary fiber."
+          "zh": "膳食纤维含量高，热量较低。",
+          "en": "High in dietary fiber and relatively low in calories."
         },
         "region": {
           "zh": "全球",
@@ -152,8 +152,8 @@
           "en": "Small and sweet"
         },
         "nutrition": {
-          "zh": "富含钾元素。",
-          "en": "Rich in potassium."
+          "zh": "富含钾元素，可维持电解质平衡。",
+          "en": "Rich in potassium, helping maintain electrolyte balance."
         },
         "region": {
           "zh": "东南亚",
@@ -180,8 +180,8 @@
           "en": "Sticky and sweet"
         },
         "nutrition": {
-          "zh": "碳水化合物丰富。",
-          "en": "Rich in carbohydrates."
+          "zh": "碳水化合物丰富，提供持久能量。",
+          "en": "High in carbohydrates, providing lasting energy."
         },
         "region": {
           "zh": "东南亚",
@@ -204,12 +204,12 @@
           "end": "12-31"
         },
         "flavor": {
-          "zh": "常见超市型甜",
-          "en": "Common supermarket sweet"
+          "zh": "口感香甜顺滑",
+          "en": "Smooth and sweet"
         },
         "nutrition": {
-          "zh": "钾和维生素B6丰富。",
-          "en": "Rich in potassium and vitamin B6."
+          "zh": "钾和维生素B6丰富，易于消化。",
+          "en": "Rich in potassium and vitamin B6, easily digestible."
         },
         "region": {
           "zh": "全球",
@@ -264,8 +264,8 @@
           "en": "Ultra-sweet and juicy"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "Rich in vitamin C."
+          "zh": "富含维生素C，有助于提高免疫力。",
+          "en": "Rich in vitamin C, helps strengthen immunity."
         },
         "region": {
           "zh": "中国",
@@ -292,8 +292,8 @@
           "en": "Sweet with a hint of tartness"
         },
         "nutrition": {
-          "zh": "富含膳食纤维。",
-          "en": "Rich in dietary fiber."
+          "zh": "富含膳食纤维，促进肠道健康。",
+          "en": "Rich in dietary fiber, promotes gut health."
         },
         "region": {
           "zh": "中国",
@@ -320,8 +320,8 @@
           "en": "Sweet and juicy"
         },
         "nutrition": {
-          "zh": "富含叶酸。",
-          "en": "High in folate."
+          "zh": "富含叶酸和维生素C。",
+          "en": "High in folate and vitamin C."
         },
         "region": {
           "zh": "中国赣南",
@@ -376,8 +376,8 @@
           "en": "Premium sweet, seedless"
         },
         "nutrition": {
-          "zh": "富含抗氧化剂。",
-          "en": "Rich in antioxidants."
+          "zh": "富含抗氧化剂，含白藜芦醇。",
+          "en": "Rich in antioxidants, including resveratrol."
         },
         "region": {
           "zh": "日本",
@@ -404,8 +404,8 @@
           "en": "Traditional black grape, sweet"
         },
         "nutrition": {
-          "zh": "含有多酚。",
-          "en": "Contains polyphenols."
+          "zh": "含有多酚，具有抗氧化作用。",
+          "en": "Contains polyphenols with antioxidant effects."
         },
         "region": {
           "zh": "日本",
@@ -432,8 +432,8 @@
           "en": "Seedless and very sweet"
         },
         "nutrition": {
-          "zh": "糖分较高。",
-          "en": "Higher sugar content."
+          "zh": "糖分较高，能迅速补充能量。",
+          "en": "Higher sugar content, provides quick energy."
         },
         "region": {
           "zh": "中国",
@@ -488,8 +488,8 @@
           "en": "Large fruit, juicy"
         },
         "nutrition": {
-          "zh": "维生素E高。",
-          "en": "High in vitamin E."
+          "zh": "维生素E含量高，有助于保护细胞。",
+          "en": "High in vitamin E, helps protect cells."
         },
         "region": {
           "zh": "美国",
@@ -512,12 +512,12 @@
           "end": "08-30"
         },
         "flavor": {
-          "zh": "国产优选，风味好",
-          "en": "Domestic premium, great flavor"
+          "zh": "香甜浓郁",
+          "en": "Rich and sweet"
         },
         "nutrition": {
-          "zh": "含有花青素。",
-          "en": "Contains anthocyanins."
+          "zh": "含有丰富花青素，抗氧化能力强。",
+          "en": "Contains abundant anthocyanins, strong antioxidant capacity."
         },
         "region": {
           "zh": "中国",
@@ -544,8 +544,8 @@
           "en": "Early ripening, fragrant flavor"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "Rich in vitamin C."
+          "zh": "富含维生素C和抗氧化物。",
+          "en": "Rich in vitamin C and antioxidants."
         },
         "region": {
           "zh": "美国",
@@ -600,8 +600,8 @@
           "en": "Sweet with a hint of tartness"
         },
         "nutrition": {
-          "zh": "富含维生素C和叶酸。",
-          "en": "Rich in vitamin C and folate."
+          "zh": "富含维生素C和叶酸，有助于皮肤健康。",
+          "en": "Rich in vitamin C and folate, beneficial for skin health."
         },
         "region": {
           "zh": "中国",
@@ -628,8 +628,8 @@
           "en": "Creamy sweet and delicate"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "High in vitamin C."
+          "zh": "维生素C含量高，口感柔滑。",
+          "en": "High in vitamin C with a smooth texture."
         },
         "region": {
           "zh": "日本/中国",
@@ -656,8 +656,8 @@
           "en": "Very sweet"
         },
         "nutrition": {
-          "zh": "富含抗氧化物。",
-          "en": "Rich in antioxidants."
+          "zh": "富含抗氧化物，帮助抵御衰老。",
+          "en": "Rich in antioxidants, helps combat aging."
         },
         "region": {
           "zh": "中国",
@@ -712,8 +712,8 @@
           "en": "Thin rind; crisp and sweet"
         },
         "nutrition": {
-          "zh": "水分丰富。",
-          "en": "High water content."
+          "zh": "水分丰富，含少量钾和维生素A。",
+          "en": "High water content with small amounts of potassium and vitamin A."
         },
         "region": {
           "zh": "中国",
@@ -740,8 +740,8 @@
           "en": "Sweet and juicy"
         },
         "nutrition": {
-          "zh": "食用方便。",
-          "en": "Convenient to eat."
+          "zh": "无籽便于食用，补水效果好。",
+          "en": "Seedless for easy eating, excellent for hydration."
         },
         "region": {
           "zh": "全球",
@@ -764,12 +764,12 @@
           "end": "09-30"
         },
         "flavor": {
-          "zh": "微型，甜",
-          "en": "Mini size, sweet"
+          "zh": "小巧香甜",
+          "en": "Small and sweet"
         },
         "nutrition": {
-          "zh": "份量适中。",
-          "en": "Portion‑sized."
+          "zh": "果形小巧，适合一次食用，水分充足。",
+          "en": "Small size suitable for single servings, good hydration."
         },
         "region": {
           "zh": "中国",
@@ -824,8 +824,8 @@
           "en": "Rich and sweet"
         },
         "nutrition": {
-          "zh": "富含维生素A。",
-          "en": "Rich in vitamin A."
+          "zh": "富含维生素A和糖分，香甜可口。",
+          "en": "Rich in vitamin A and sugars, pleasantly sweet."
         },
         "region": {
           "zh": "中国新疆",
@@ -852,8 +852,8 @@
           "en": "Mildly sweet"
         },
         "nutrition": {
-          "zh": "补水佳品。",
-          "en": "Great for hydration."
+          "zh": "含水量高，清爽解渴。",
+          "en": "High water content, refreshing and thirst-quenching."
         },
         "region": {
           "zh": "中国",
@@ -880,8 +880,8 @@
           "en": "Mildly sweet"
         },
         "nutrition": {
-          "zh": "富含水分及维生素C。",
-          "en": "High in water and vitamin C."
+          "zh": "富含水分及维生素C，口感细腻。",
+          "en": "High in water and vitamin C with delicate texture."
         },
         "region": {
           "zh": "中国/美国",
@@ -936,8 +936,8 @@
           "en": "Fragrant, sweet and juicy"
         },
         "nutrition": {
-          "zh": "富含维生素A。",
-          "en": "Rich in vitamin A."
+          "zh": "维生素A含量高，香味浓郁.",
+          "en": "High in vitamin A with intense aroma."
         },
         "region": {
           "zh": "台湾",
@@ -964,8 +964,8 @@
           "en": "Intensely sweet and fragrant"
         },
         "nutrition": {
-          "zh": "富含抗氧化物。",
-          "en": "Contains antioxidants."
+          "zh": "富含抗氧化物，维生素C也很丰富。",
+          "en": "Rich in antioxidants and vitamin C."
         },
         "region": {
           "zh": "中国",
@@ -992,8 +992,8 @@
           "en": "Large fruit, rich flavor"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "Rich in vitamin C."
+          "zh": "维生素C含量高，纤维也丰富。",
+          "en": "High in vitamin C and fiber."
         },
         "region": {
           "zh": "中国",
@@ -1048,8 +1048,8 @@
           "en": "Sweet, creamy texture"
         },
         "nutrition": {
-          "zh": "富含能量和脂肪。",
-          "en": "High in energy and fats."
+          "zh": "富含能量和脂肪，含钾与维生素B。",
+          "en": "High in energy and fats, also provides potassium and vitamin B."
         },
         "region": {
           "zh": "泰国",
@@ -1076,8 +1076,8 @@
           "en": "Intensely flavorful and creamy"
         },
         "nutrition": {
-          "zh": "高营养。",
-          "en": "Highly nutritious."
+          "zh": "营养价值高，富含蛋白质与维生素。",
+          "en": "Highly nutritious, rich in protein and vitamins."
         },
         "region": {
           "zh": "马来西亚",
@@ -1100,12 +1100,12 @@
           "end": "08-31"
         },
         "flavor": {
-          "zh": "风味优，丁状果肉",
-          "en": "Premium flavor, chunky flesh"
+          "zh": "香味浓郁，果肉厚实",
+          "en": "Rich aroma, thick flesh"
         },
         "nutrition": {
-          "zh": "优质营养。",
-          "en": "Premium nutrition."
+          "zh": "含丰富蛋白质和矿物质。",
+          "en": "Packed with protein and minerals."
         },
         "region": {
           "zh": "马来西亚",
@@ -1160,8 +1160,8 @@
           "en": "Sweet‑tart, thick flesh"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "Rich in vitamin C."
+          "zh": "富含维生素C和多酚。",
+          "en": "Rich in vitamin C and polyphenols."
         },
         "region": {
           "zh": "泰国",
@@ -1188,8 +1188,8 @@
           "en": "Domestic, mildly sweet"
         },
         "nutrition": {
-          "zh": "抗氧化物质丰富。",
-          "en": "Rich in antioxidants."
+          "zh": "抗氧化物质丰富，热量较低。",
+          "en": "Rich in antioxidants with relatively low calories."
         },
         "region": {
           "zh": "中国云南",
@@ -1244,8 +1244,8 @@
           "en": "Very juicy and sweet"
         },
         "nutrition": {
-          "zh": "富含水分和维生素。",
-          "en": "High in water and vitamins."
+          "zh": "富含水分和维生素A、C。",
+          "en": "High in water and vitamins A and C."
         },
         "region": {
           "zh": "上海",
@@ -1272,8 +1272,8 @@
           "en": "Smooth skin; refreshing"
         },
         "nutrition": {
-          "zh": "膳食纤维丰富。",
-          "en": "Rich in dietary fiber."
+          "zh": "膳食纤维丰富，有助于肠道健康。",
+          "en": "Rich in dietary fiber, good for digestive health."
         },
         "region": {
           "zh": "中国",
@@ -1296,12 +1296,12 @@
           "end": "08-31"
         },
         "flavor": {
-          "zh": "适合罐头或鲜吃",
-          "en": "Good for canning or fresh eating"
+          "zh": "肉质紧实，酸甜适中",
+          "en": "Firm texture with balanced sweet and tart"
         },
         "nutrition": {
-          "zh": "甜度适中。",
-          "en": "Moderately sweet."
+          "zh": "甜度适中，含多种维生素。",
+          "en": "Moderately sweet with various vitamins."
         },
         "region": {
           "zh": "中国",
@@ -1356,8 +1356,8 @@
           "en": "Fragrant, sweet and juicy"
         },
         "nutrition": {
-          "zh": "富含维生素C和矿物质。",
-          "en": "Rich in vitamin C and minerals."
+          "zh": "富含维生素C和矿物质，酸甜开胃。",
+          "en": "Rich in vitamin C and minerals, tangy and appetizing."
         },
         "region": {
           "zh": "中国",
@@ -1384,8 +1384,8 @@
           "en": "Rich berry flavor"
         },
         "nutrition": {
-          "zh": "花青素含量高。",
-          "en": "High anthocyanins."
+          "zh": "花青素含量高，抗氧化力强。",
+          "en": "High in anthocyanins with strong antioxidant power."
         },
         "region": {
           "zh": "新西兰",
@@ -1412,8 +1412,8 @@
           "en": "Smooth flesh"
         },
         "nutrition": {
-          "zh": "富含膳食纤维。",
-          "en": "Rich in dietary fiber."
+          "zh": "富含膳食纤维和维生素E。",
+          "en": "Rich in dietary fiber and vitamin E."
         },
         "region": {
           "zh": "新西兰",
@@ -1464,12 +1464,12 @@
           "end": "11-30"
         },
         "flavor": {
-          "zh": "籽可食用，甜度高",
-          "en": "Edible seeds, sweet"
+          "zh": "籽软可食用，果肉香甜",
+          "en": "Soft seeds and sweet arils"
         },
         "nutrition": {
-          "zh": "富含花青素。",
-          "en": "Rich in anthocyanins."
+          "zh": "富含花青素和维生素C。",
+          "en": "Rich in anthocyanins and vitamin C."
         },
         "region": {
           "zh": "突尼斯",
@@ -1496,8 +1496,8 @@
           "en": "Sweet and crisp"
         },
         "nutrition": {
-          "zh": "膳食纤维丰富。",
-          "en": "Rich in dietary fiber."
+          "zh": "膳食纤维丰富，口感清爽。",
+          "en": "Rich in dietary fiber with refreshing taste."
         },
         "region": {
           "zh": "四川",
@@ -1524,8 +1524,8 @@
           "en": "Vibrant arils"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "High in vitamin C."
+          "zh": "富含维生素C和矿物质。",
+          "en": "High in vitamin C and minerals."
         },
         "region": {
           "zh": "中国",
@@ -1580,8 +1580,8 @@
           "en": "Sweet and meaty"
         },
         "nutrition": {
-          "zh": "富含类胡萝卜素。",
-          "en": "Rich in carotenoids."
+          "zh": "富含类胡萝卜素和葡萄糖。",
+          "en": "Rich in carotenoids and glucose."
         },
         "region": {
           "zh": "中国",
@@ -1608,8 +1608,8 @@
           "en": "Sweet and crisp"
         },
         "nutrition": {
-          "zh": "维生素C丰富。",
-          "en": "Rich in vitamin C."
+          "zh": "维生素C丰富，甜而多汁。",
+          "en": "High in vitamin C, sweet and juicy."
         },
         "region": {
           "zh": "陕西",
@@ -1632,12 +1632,12 @@
           "end": "12-31"
         },
         "flavor": {
-          "zh": "可直接食用",
-          "en": "Ready‑to‑eat crunchy"
+          "zh": "脆甜可口",
+          "en": "Crisp and sweet"
         },
         "nutrition": {
-          "zh": "纤维丰富。",
-          "en": "High in fiber."
+          "zh": "纤维丰富，热量较低。",
+          "en": "High in fiber, relatively low in calories."
         },
         "region": {
           "zh": "中国",
@@ -1688,12 +1688,12 @@
           "end": "07-15"
         },
         "flavor": {
-          "zh": "进口大果",
-          "en": "Imported large fruit"
+          "zh": "果大肉厚，甜度高",
+          "en": "Large berries with rich sweetness"
         },
         "nutrition": {
-          "zh": "富含花青素。",
-          "en": "Rich in anthocyanins."
+          "zh": "富含花青素和维生素C。",
+          "en": "Rich in anthocyanins and vitamin C."
         },
         "region": {
           "zh": "智利/美国",
@@ -1716,12 +1716,12 @@
           "end": "07-15"
         },
         "flavor": {
-          "zh": "国产甜樱桃",
-          "en": "Domestic sweet cherry"
+          "zh": "甜味浓郁，果皮鲜红",
+          "en": "Deeply sweet with bright red skin"
         },
         "nutrition": {
-          "zh": "维生素C丰富。",
-          "en": "Rich in vitamin C."
+          "zh": "维生素C丰富，也含铁。",
+          "en": "High in vitamin C and also contains iron."
         },
         "region": {
           "zh": "中国",
@@ -1744,12 +1744,12 @@
           "end": "07-15"
         },
         "flavor": {
-          "zh": "国产大樱桃",
-          "en": "Large domestic cherry"
+          "zh": "果大汁多，风味甜美",
+          "en": "Large and juicy with sweet flavor"
         },
         "nutrition": {
-          "zh": "多汁甜美。",
-          "en": "Juicy and sweet."
+          "zh": "多汁甜美，富含抗氧化剂。",
+          "en": "Juicy and sweet, rich in antioxidants."
         },
         "region": {
           "zh": "中国",
@@ -1804,8 +1804,8 @@
           "en": "Fragrant and sweet"
         },
         "nutrition": {
-          "zh": "富含维生素C。",
-          "en": "Rich in vitamin C."
+          "zh": "维生素C含量高，风味芳香。",
+          "en": "High in vitamin C with fragrant flavor."
         },
         "region": {
           "zh": "中国广西",
@@ -1832,8 +1832,8 @@
           "en": "Thick and sweet flesh"
         },
         "nutrition": {
-          "zh": "口感柔软。",
-          "en": "Soft texture."
+          "zh": "口感柔软，含糖量适中。",
+          "en": "Soft texture with moderate sugar content."
         },
         "region": {
           "zh": "中国广东",
@@ -1860,8 +1860,8 @@
           "en": "Elegant sweet fragrance"
         },
         "nutrition": {
-          "zh": "口感清甜。",
-          "en": "Pleasantly sweet."
+          "zh": "清甜多汁，维生素C丰富。",
+          "en": "Delicately sweet and juicy, rich in vitamin C."
         },
         "region": {
           "zh": "广东",
